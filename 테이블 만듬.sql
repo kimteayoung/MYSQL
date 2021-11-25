@@ -9,3 +9,11 @@ create table trainee(
     t_birth date,
     t_assress varchar(50),
     constraint primary key(t_number));
+    
+    -- insert into trainee(t_name,t_age,t_phone,t_gender,t_birth,t_assress)
+    -- values()
+    
+    select * from trainee;
+    -- 두번째 훈련생에 대한 정보만 조최할 때 쿼리는?
+    	select * from trainee where t_number=2;
+    
