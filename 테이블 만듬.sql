@@ -16,4 +16,8 @@ create table trainee(
     select * from trainee;
     -- 두번째 훈련생에 대한 정보만 조최할 때 쿼리는?
     	select * from trainee where t_number=2;
+        
+        delete  from trainee where t_number=?;
+        -- 전화번호, 주소를 수정하는 쿼리
+        update trainee set t_phone ='010-1111-2222', t_assress='제주도' where t_number=18;
     
