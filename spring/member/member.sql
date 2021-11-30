@@ -17,6 +17,7 @@ create table member_table(
     insert into member_table(m_id,m_pw,m_name,m_email,m_phone)
 		values('bb','bb','bb','bb','bb');
     
+    select m_id from member_table where m_id='akdlfh123';
     
     
     
